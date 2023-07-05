@@ -10,7 +10,7 @@
 
 ## Hobbyist Photographer
 - 📸 I love capturing moments and expressing creativity through photography
-- 🌐 Visit my website (https://www.mirsadra.art) to see some of my work
+- 🌐 Visit my website ([https://www.mirsadra.art](https://www.mirsadra.art)) to see some of my work
 
 ## Let's Connect!
 - 💬 I'm always open to interesting discussions and collaborations
