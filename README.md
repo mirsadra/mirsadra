@@ -1,16 +1,19 @@
-### Hi there 👋
+## Background
+- 🏢 Former Architect turned Pharmacist 💊
+- 🌍 Passionate about improving healthcare through technology and data-driven solutions
+- 📚 Keen observer of politics, always seeking to stay informed and engaged
 
-<!--
-**mirsadra/mirsadra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Coding Enthusiast
+- 💻 Proficient in Swift, R, and Python
+- 🌱 Constantly learning and exploring new technologies
+- 👯 Looking to collaborate on interesting projects that intersect healthcare, coding, and data analysis
 
-Here are some ideas to get you started:
+## Hobbyist Photographer
+- 📸 I love capturing moments and expressing creativity through photography
+- 🌐 Visit my website (https://www.mirsadra.art) to see some of my work
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Let's Connect!
+- 💬 I'm always open to interesting discussions and collaborations
+- 📫 Feel free to reach me via email at [miirsadra@gmail.com]
+- 🐦 Connect with me on [Twitter]([https://twitter.com/your_username](https://twitter.com/MirsadraMolaei))
+
