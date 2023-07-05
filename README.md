@@ -15,5 +15,5 @@
 ## Let's Connect!
 - 💬 I'm always open to interesting discussions and collaborations
 - 📫 Feel free to reach me via email at [miirsadra@gmail.com]
-- 🐦 Connect with me on [Twitter]([https://twitter.com/your_username](https://twitter.com/MirsadraMolaei))
+- 🐦 Connect with me on [Twitter]([https://twitter.com/MirsadraMolaei])
 
