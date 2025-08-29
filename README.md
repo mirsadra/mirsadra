@@ -1,5 +1,5 @@
-- Specializing in Solidity for smart contract development <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/160px-Solidity_logo.svg.png" width="20" height="20" alt="JS"/> 
-- Skilled in JavaScript <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png" width="20" height="20" alt="JS"/>
-- Basic understanding of Swift and Python <img src="https://developer.apple.com/swift/images/swift-og.png" width="20" height="20" alt="Swift"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" width="20" height="20" alt="Python"/>
-- Always exploring new technologies and improving my development skills
-
+- Skilled in Swift for iOS development <img src="https://developer.apple.com/swift/images/swift-og.png" width="20" height="20" alt="Swift"/>
+- Specialising in TypeScript for web development with Next.js <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="20" height="20" alt="TS"/>
+- Proficient in Python for scripting, automation and AI/LLM projects <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" width="20" height="20" alt="Python"/>
+- Exploring and Fine-tuning open-source LLMs and AI models
+- Always learning new technologies and improving my development skills
