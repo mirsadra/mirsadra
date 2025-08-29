@@ -1,5 +1,5 @@
 - Skilled in Swift for iOS development <img src="https://developer.apple.com/swift/images/swift-og.png" width="20" height="20" alt="Swift"/>
 - Specialising in TypeScript for web development with Next.js <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="20" height="20" alt="TS"/>
-- Proficient in Python for scripting, automation and AI/LLM projects <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" width="20" height="20" alt="Python"/>
-- Exploring and Fine-tuning open-source LLMs and AI models
+- Proficient in Python for scripting and automation <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" width="20" height="20" alt="Python"/>
+- Exploring and fine-tuning open-source LLMs and AI models
 - Always learning new technologies and improving my development skills
