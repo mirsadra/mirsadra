@@ -1,0 +1,31 @@
+name: Update Snake Game
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Generate Snake Game SVG
+        run: |
+          cd snake-game
+          python snake_game.py > ../snake-game.svg
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add snake-game.svg
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update snake game - $(date +'%Y-%m-%d %H:%M')"
+          git push
