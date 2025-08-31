@@ -1,0 +1,1 @@
+{"snake": [[16, 7]], "direction": [1, 0], "food": [15, 3], "score": 0, "game_over": false, "width": 30, "height": 15, "step": 1}
