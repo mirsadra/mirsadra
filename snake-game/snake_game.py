@@ -9,7 +9,11 @@ def load_game_state():
     if os.path.exists(state_file):
         try:
             with open(state_file, 'r') as f:
-                return json.load(f)
+                state = json.load(f)
+                # Add step counter to track movement
+                if 'step' not in state:
+                    state['step'] = 0
+                return state
         except:
             pass
     
@@ -22,7 +26,8 @@ def load_game_state():
         'score': 0,
         'game_over': False,
         'width': width,
-        'height': height
+        'height': height,
+        'step': 0
     }
 
 def save_game_state(state):
@@ -34,6 +39,9 @@ def move_snake(state):
     """Move the snake and handle game logic"""
     if state['game_over']:
         return state
+    
+    # Increment step counter
+    state['step'] += 1
     
     snake = state['snake'][:]
     direction = state['direction']
@@ -72,8 +80,8 @@ def move_snake(state):
         # Remove tail if no food eaten
         snake.pop()
     
-    # Randomly change direction occasionally to make it more interesting
-    if random.random() < 0.1:  # 10% chance to change direction
+    # Smart direction changes - avoid walls and self-collision
+    if random.random() < 0.15:  # 15% chance to change direction
         possible_directions = []
         current_dir = direction
         
@@ -83,19 +91,17 @@ def move_snake(state):
         else:  # Moving horizontally
             possible_directions = [[0, 1], [0, -1]]
         
-        # Sometimes continue straight
-        possible_directions.append(current_dir)
+        # Filter out directions that would cause immediate problems
+        safe_directions = []
+        for test_dir in possible_directions:
+            test_pos = [new_head[0] + test_dir[0], new_head[1] + test_dir[1]]
+            if (0 <= test_pos[0] < width and 0 <= test_pos[1] < height and 
+                test_pos not in snake):
+                safe_directions.append(test_dir)
         
-        # Choose a random direction, but avoid immediate collision
-        for _ in range(10):  # Try up to 10 times
-            new_direction = random.choice(possible_directions)
-            test_head = [new_head[0] + new_direction[0], new_head[1] + new_direction[1]]
-            
-            # Check if this direction would cause immediate collision
-            if (0 <= test_head[0] < width and 0 <= test_head[1] < height and 
-                test_head not in snake):
-                state['direction'] = new_direction
-                break
+        # If we have safe directions, choose one
+        if safe_directions:
+            state['direction'] = random.choice(safe_directions)
     
     state['snake'] = snake
     return state
@@ -174,10 +180,10 @@ def generate_snake_svg():
     <!-- UI -->
     <rect x="0" y="{height * cell_size - 20}" width="{width * cell_size}" height="20" fill="#000000" opacity="0.8"/>
     <text x="5" y="{height * cell_size - 7}" fill="#00ff00" font-family="monospace" font-size="12">
-        Score: {score} | Length: {len(snake)} | {'GAME OVER' if state.get('game_over') else 'Playing...'}
+        Score: {score} | Length: {len(snake)} | Step: {state.get('step', 0)}
     </text>
-    <text x="{width * cell_size - 120}" y="{height * cell_size - 7}" fill="#888" font-family="monospace" font-size="10">
-        {datetime.now().strftime('%H:%M:%S')}
+    <text x="5" y="{height * cell_size - 25}" fill="#888" font-family="monospace" font-size="10">
+        Status: {'GAME OVER - Restarting...' if state.get('game_over') else 'Playing...'} | Updated: {datetime.now().strftime('%H:%M:%S')}
     </text>
 </svg>'''
     
