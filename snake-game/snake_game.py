@@ -1,35 +1,31 @@
-import numpy as np
-import svgwrite
+import random
 import os
 from datetime import datetime
 
 def generate_snake_svg():
-  
-    dwg = svgwrite.Drawing('snake-game.svg', size=("400", "200"), profile='full')
-
-    dwg.add(dwg.rect(insert=(0, 0), size=("100%", "100%"), fill='#0d1117'))
+    width, height = 30, 15
+    cell_size = 10
     
-    snake_color = "#00ff00"
-    dwg.add(dwg.rect(insert=(50, 50), size=(10, 10), fill=snake_color))
-    dwg.add(dwg.rect(insert=(60, 50), size=(10, 10), fill=snake_color))
-    dwg.add(dwg.rect(insert=(70, 50), size=(10, 10), fill=snake_color))
+    snake = [[width // 2, height // 2]]
+    direction = [1, 0]
+    food = [random.randint(1, width-2), random.randint(1, height-2)]
+    score = 0
     
-    dwg.add(dwg.circle(center=(120, 80), r=5, fill='#ff0000'))
+    svg_content = f'''<svg width="{width * cell_size}" height="{height * cell_size}" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#0d1117"/>
+    <text x="5" y="{height * cell_size - 5}" fill="white" font-size="10">Score: {score}</text>
+    <text x="{width * cell_size - 100}" y="{height * cell_size - 5}" fill="#888" font-size="8">Updated: {datetime.now().strftime('%H:%M')}</text>
+'''
     
-    dwg.add(dwg.text("Score: 3", insert=(10, 190), fill='#ffffff', font_size="14px"))
+    svg_content += f'<circle cx="{food[0] * cell_size + cell_size//2}" cy="{food[1] * cell_size + cell_size//2}" r="{cell_size//2 - 1}" fill="#ff0000"/>\n'
     
-    dwg.add(dwg.text(f"Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}", 
-                     insert=(250, 190), fill='#888888', font_size="10px"))
+    for i, segment in enumerate(snake):
+        color = "#00ff00" if i == 0 else "#00cc00"  # Head is brighter green
+        svg_content += f'<rect x="{segment[0] * cell_size}" y="{segment[1] * cell_size}" width="{cell_size}" height="{cell_size}" fill="{color}"/>\n'
     
-    dwg.save()
+    svg_content += '</svg>'
     
-    with open('snake-game.svg', 'r') as f:
-        content = f.read()
-    
-    if os.path.exists('snake-game.svg'):
-        os.remove('snake-game.svg')
-    
-    return content
+    return svg_content
 
 if __name__ == "__main__":
     svg_content = generate_snake_svg()
