@@ -3,6 +3,3 @@
 - Proficient in Python for scripting and automation <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" width="20" height="20" alt="Python"/>
 - Exploring and fine-tuning open-source LLMs and AI models
 - Always learning new technologies and improving my development skills
-
-
-![Snake Game](https://raw.githubusercontent.com/mirsadra/mirsadra/refs/heads/main/snake-game.svg)
