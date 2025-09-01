@@ -1,5 +1,27 @@
-- Skilled in Swift for iOS development <img src="https://developer.apple.com/swift/images/swift-og.png" width="20" height="20" alt="Swift"/>
-- Specialising in TypeScript for web development with Next.js <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="20" height="20" alt="TS"/>
-- Proficient in Python for scripting and automation <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" width="20" height="20" alt="Python"/>
-- Exploring and fine-tuning open-source LLMs and AI models
-- Always learning new technologies and improving my development skills
+## 🛠️ Tech Stack & Socials
+
+### ⌨️ Programming Languages
+[![My Skills](https://skillicons.dev/icons?i=swift,py,ts,js,r)](https://skillicons.dev)
+
+### 🌐 Web Development
+[![My Skills](https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,nodejs)](https://skillicons.dev)
+
+### 🗄️ Databases & Backend
+[![My Skills](https://skillicons.dev/icons?i=postgres,mongodb,supabase,firebase)](https://skillicons.dev)
+
+### ☁️ Cloud & DevOps
+[![My Skills](https://skillicons.dev/icons?i=docker,azure,gcp,cloudflare,githubactions,raspberrypi,linux,ubuntu)](https://skillicons.dev)
+
+### 🤖 AI/ML & Data
+[![My Skills](https://skillicons.dev/icons?i=pytorch,tensorflow)](https://skillicons.dev)
+
+### 🛠️ Tools & Design
+[![My Skills](https://skillicons.dev/icons?i=git,vscode,pycharm,figma,ai,wordpress)](https://skillicons.dev)
+
+### 📫 Let's Connect!
+[![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:miirsadra@gmail.com)
+[![Mastodon](https://skillicons.dev/icons?i=mastodon)](https://mastodon.social/@mirsadra)
+[![Twitter/X](https://skillicons.dev/icons?i=twitter)](https://x.com/Mirsadraa)
+[![Figma](https://skillicons.dev/icons?i=figma)](https://www.figma.com/@miirsadra)
+[![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/mirsadra)
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](linkedin.com/in/mirsadra/)
