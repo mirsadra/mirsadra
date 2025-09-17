@@ -37,6 +37,7 @@
 
 ### 🛠️ Tools & Design
 [![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com)
+[![XCode](https://skills.syvixor.com/api/icons?i=xcode)](https://developer.apple.com/xcode/)
 [![VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com)
 [![PyCharm](https://skillicons.dev/icons?i=pycharm)](https://www.jetbrains.com/pycharm)
 [![Figma](https://skillicons.dev/icons?i=figma)](https://figma.com)
@@ -47,6 +48,7 @@
 [![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:miirsadra@gmail.com)
 [![Mastodon](https://skillicons.dev/icons?i=mastodon)](https://mastodon.social/@mirsadra)
 [![Twitter/X](https://skillicons.dev/icons?i=twitter)](https://x.com/Mirsadraa)
+[![Bluesky](https://skills.syvixor.com/api/icons?i=bluesky)](https://bsky.app/profile/mirsadra.bsky.social)
 [![Figma](https://skillicons.dev/icons?i=figma)](https://www.figma.com/@miirsadra)
 [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/mirsadra)
 [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/mirsadra)
