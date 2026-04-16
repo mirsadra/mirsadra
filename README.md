@@ -45,9 +45,9 @@
 [![WordPress](https://skillicons.dev/icons?i=wordpress)](https://wordpress.org)
 
 ### 📫 Let's Connect!
-[![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:miirsadra@gmail.com)
+[![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:parkinsad@icloud.com)
 [![Mastodon](https://skillicons.dev/icons?i=mastodon)](https://mastodon.social/@mirsadra)
-[![Twitter/X](https://skillicons.dev/icons?i=twitter)](https://x.com/Mirsadraa)
+[![Twitter/X](https://skillicons.dev/icons?i=twitter)](https://x.com/parkinsad)
 [![Bluesky](https://skills.syvixor.com/api/icons?i=bluesky)](https://bsky.app/profile/mirsadra.bsky.social)
 [![Figma](https://skillicons.dev/icons?i=figma)](https://www.figma.com/@miirsadra)
 [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/mirsadra)
